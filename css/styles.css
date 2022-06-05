@@ -4,4 +4,56 @@
   padding: 0;
   line-height: 1.6;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}
+
+body {
+  background-color: #e3e3e3;
+  padding: 0 1rem;
+}
+
+h1,
+h2 {
+  margin-top: 1rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem auto;
+  max-width: 600px;
+}
+
+label {
+  font-size: 1.2rem;
+}
+
+input {
+  margin-top: 1rem;
+  height: 40px;
+  font-size: 1.2rem;
+}
+
+button {
+  cursor: pointer;
+  margin-top: 1rem;
+  width: 200px;
+  height: 40px;
+  font-size: 1.2rem;
+  background-color: #333;
+  color: #e3e3e3;
+}
+
+button:hover {
+  background-color: rgb(85, 85, 85);
+}
+
+button:active {
+  background-color: rgb(178, 178, 178);
+  color: #333;
+}
+
+#shout-message {
+  margin-top: 1rem;
+  font-size: 3rem;
 }
