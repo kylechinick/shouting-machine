@@ -11,13 +11,16 @@
   </head>
   <body>
     <h1>Welcome to the Shouting Machine</h1>
-    <form>
-      <label for="message-field"
-        >Enter text in the form below then hit submit transform your entry into
-        a SHOUT!</label
-      >
+    <form id="shout-form">
+      <label for="message-field">
+        Enter text in the form below then click the shout-ify button to
+        transform your entry into a SHOUT!
+      </label>
       <input type="text" name="message-field" id="message-field" />
       <button type="submit">Shout-ify!</button>
     </form>
+    <div>
+      <p id="shout-message"></p>
+    </div>
   </body>
 </html>
